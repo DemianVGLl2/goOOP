@@ -8,6 +8,19 @@ type Book struct {
 	pages  int
 }
 
+// Getters and Setters
+func (b *Book) SetTitle(title string) {
+	if title == "" {
+		fmt.Println("You must have a title")
+		return
+	}
+	b.title = title
+}
+
+func (b *Book) GetTitle() string {
+	return b.title
+}
+
 func (b *Book) PrintInfo() {
 	fmt.Printf("Title: %s\nAuthor: %s\nPages: %d\n\n", b.title, b.author, b.pages)
 }

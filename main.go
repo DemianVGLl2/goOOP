@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github/DemianVGLl2/goOOP/book"
 )
 
@@ -28,4 +29,6 @@ func main() {
 	var myTextBook = book.NewTextBook("I don't know", "Someone", 1000, "Somewhat", "dunno")
 
 	myTextBook.PrintInfo()
+
+	fmt.Println(myTextBook.GetTitle())
 }
