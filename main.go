@@ -13,13 +13,13 @@ func main() {
 	// Inheritance -> Composition: Structures within structures
 	// Polymorphism -> Interfaces
 
-	var myBook = book.Book{
-		Title:  "Los cinco lenguajes del amor",
-		Author: "Gary Chapman",
-		Pages:  200,
-	}
+	/*var myBook = book.Book{
+		title:  "Los cinco lenguajes del amor",
+		author: "Gary Chapman",
+		pages:  200,
+	}*/
 
-	myBook.PrintInfo()
+	// myBook.PrintInfo()
 
 	var myBook2 = book.NewBook("Ensayo sobre la ceguera", "Jose Saramago", 500)
 
