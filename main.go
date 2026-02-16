@@ -2,8 +2,6 @@ package main
 
 import (
 	"github/DemianVGLl2/goOOP/book"
-
-	"github.com/DemianVGLl2/goOOP/book"
 )
 
 func main() {
