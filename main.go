@@ -20,4 +20,12 @@ func main() {
 	}
 
 	myBook.PrintInfo()
+
+	var myBook2 = book.NewBook("Ensayo sobre la ceguera", "Jose Saramago", 500)
+
+	myBook2.PrintInfo()
+
+	var myTextBook = book.NewTextBook("I don't know", "Someone", 1000, "Somewhat", "dunno")
+
+	myTextBook.PrintInfo()
 }
