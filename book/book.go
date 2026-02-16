@@ -9,7 +9,7 @@ type Book struct {
 }
 
 func (b *Book) PrintInfo() {
-	fmt.Printf("Title: %s\nAuthor: %s\nPages: %d\n", b.Title, b.Author, b.Pages)
+	fmt.Printf("Title: %s\nAuthor: %s\nPages: %d\n\n", b.Title, b.Author, b.Pages)
 }
 
 func NewBook(title, author string, pages int) *Book {
@@ -28,7 +28,7 @@ type Textbook struct {
 }
 
 func (tb *Textbook) PrintInfo() {
-	fmt.Printf("Title: %s\nAuthor: %s\nPages: %d\nEditorial: %s\nLevel: %s\n", tb.Title, tb.Author, tb.Pages, tb.Editorial, tb.Level)
+	fmt.Printf("Title: %s\nAuthor: %s\nPages: %d\nEditorial: %s\nLevel: %s\n\n", tb.Title, tb.Author, tb.Pages, tb.Editorial, tb.Level)
 }
 
 func NewTextBook(title, author string, pages int, editorial, level string) *Textbook {
